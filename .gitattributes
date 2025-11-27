@@ -1,0 +1,3 @@
+# Forzar detección como MATLAB
+*.m linguist-language=MATLAB
+*.mat linguist-vendored
