@@ -1,3 +1,10 @@
-# Forzar detección como MATLAB
+# Archivos MATLAB Live Scripts
+*.mlx linguist-language=MATLAB
+
+# También incluir archivos .m tradicionales si los tienes
 *.m linguist-language=MATLAB
+
+# Excluir archivos binarios y de datos
 *.mat linguist-vendored
+*.fig linguist-vendored
+*.p linguist-vendored
